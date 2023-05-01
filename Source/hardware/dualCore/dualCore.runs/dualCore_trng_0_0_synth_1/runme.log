@@ -1,0 +1,807 @@
+
+*** Running vivado
+    with args -log dualCore_trng_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dualCore_trng_0_0.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source dualCore_trng_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Proj/ip_repo/trng_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2020.2/data/ip'.
+Command: synth_design -top dualCore_trng_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33824
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 998.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dualCore_trng_0_0' [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_trng_0_0/synth/dualCore_trng_0_0.vhd:82]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'trng_v1_0' declared at 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0.vhd:5' bound to instance 'U0' of component 'trng_v1_0' [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_trng_0_0/synth/dualCore_trng_0_0.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'trng_v1_0' [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0.vhd:49]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'trng_v1_0_S00_AXI' declared at 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:5' bound to instance 'trng_v1_0_S00_AXI_inst' of component 'trng_v1_0_S00_AXI' [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'trng_v1_0_S00_AXI' [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:657]
+INFO: [Synth 8-226] default block is never used [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:787]
+WARNING: [Synth 8-614] signal 'a1' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b1' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c1' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd1' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e1' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a2' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b2' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c2' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd2' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e2' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a3' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b3' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c3' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd3' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e3' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a4' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b4' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c4' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd4' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e4' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a5' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b5' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c5' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd5' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e5' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a6' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b6' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c6' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd6' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e6' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a7' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b7' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c7' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd7' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e7' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a8' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b8' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c8' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd8' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e8' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a9' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b9' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c9' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd9' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e9' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a10' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b10' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c10' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd10' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e10' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a11' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b11' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c11' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd11' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e11' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a12' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b12' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c12' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd12' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e12' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a13' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b13' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c13' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd13' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e13' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a14' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b14' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c14' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd14' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e14' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a15' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b15' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c15' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd15' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e15' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a16' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b16' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c16' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd16' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e16' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a17' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b17' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c17' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd17' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e17' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a18' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b18' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c18' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd18' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e18' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a19' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b19' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c19' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd19' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e19' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'a20' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'b20' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'c20' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'd20' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+WARNING: [Synth 8-614] signal 'e20' is read in the process but is not in the sensitivity list [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:820]
+INFO: [Common 17-14] Message 'Synth 8-614' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'trng_v1_0_S00_AXI' (1#1) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'trng_v1_0' (2#1) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'dualCore_trng_0_0' (3#1) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_trng_0_0/synth/dualCore_trng_0_0.vhd:82]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 998.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 998.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 998.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 998.520 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc] for cell 'U0'
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e1'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e1]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e3'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e3]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e4'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e4]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e5'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e5]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e6'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e6]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e7'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e7]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e8'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e8]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e9'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e9]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e10'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e10]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e11'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e11]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e12'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e12]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e13'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e13]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e14'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e14]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e15'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e15]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e16'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e16]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e17'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e17]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e18'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e18]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e19'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e19]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e20'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e20]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e21'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e21]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e22'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e22]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e23'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e23]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e24'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e24]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e25'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e25]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e26'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e26]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e27'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e27]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e28'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e28]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e29'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e29]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e30'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e30]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e31'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e31]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e32'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e32]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e33'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e33]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e34'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e34]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e35'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e35]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e36'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e36]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e37'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e37]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e38'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e38]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e39'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e39]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e40'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e40]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e41'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e41]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e42'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e42]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e43'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e43]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e44'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e44]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e45'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e45]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e46'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e46]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e47'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e47]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e48'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e48]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e49'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e49]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e50'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e50]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e51'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e51]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e52'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e52]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e53'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e53]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e54'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e54]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e55'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e55]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e56'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e56]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e57'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e57]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e58'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e58]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e59'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e59]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e60'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e60]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e61'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e61]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e62'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e62]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e63'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e63]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/e64'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e64]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor0_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:132]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor0_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor1_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:133]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor1_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor2_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:134]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor2_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor3_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:135]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor3_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor4_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:136]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor4_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor5_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:137]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor5_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor6_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:138]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor6_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor7_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:139]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor7_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor8_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:140]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor8_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor9_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:141]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor9_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor10_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:142]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor10_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor11_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:143]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor11_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor12_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:144]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor12_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor13_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:145]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor13_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor14_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:146]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor14_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor15_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:147]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor15_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor16_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:148]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor16_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor17_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:149]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor17_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor18_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:150]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor18_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor19_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:151]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor19_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor20_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:152]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor20_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor21_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:153]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor21_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor22_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:154]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor22_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor23_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:155]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor23_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor24_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:156]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor24_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor25_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:157]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor25_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor26_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:158]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor26_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor27_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:159]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor27_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor28_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:160]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor28_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor29_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:161]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor29_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor30_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:162]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor30_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor31_i_2'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:163]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor31_i_2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor0_i_3'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:164]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor0_i_3]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor1_i_3'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:165]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor1_i_3]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor2_i_3'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:166]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor2_i_3]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor3_i_3'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:167]
+INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:167]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor3_i_3]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:167]
+INFO: [Common 17-14] Message 'Vivado 12-1023' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dualCore_trng_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/dualCore_trng_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/dualCore_trng_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/dualCore_trng_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1012.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1018.445 ; gain = 6.219
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/dualCore_trng_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__31) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:825]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__37) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1213]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__44) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:837]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__50) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:831]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__57) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:849]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__63) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:843]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__70) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:861]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__76) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:855]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__83) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:873]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__89) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:867]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__96) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:885]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__102) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:879]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__109) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:897]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__115) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:891]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__122) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:909]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__128) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:903]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__135) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:921]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__141) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:915]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__148) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:934]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__154) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:927]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__161) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:948]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__167) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:941]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__174) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:962]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__180) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:955]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__187) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:976]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__193) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:969]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__200) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:990]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__206) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:983]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__213) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1003]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__219) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:997]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__226) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1015]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__232) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1009]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__239) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1027]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__245) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1021]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__252) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1039]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__258) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1033]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__265) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1051]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__271) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1045]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__278) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1063]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__284) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1057]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__291) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1075]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__297) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1069]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__304) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1087]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__310) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1081]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__317) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1099]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__323) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1093]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__330) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1111]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__336) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1105]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__343) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1123]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__349) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1117]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__356) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1135]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__362) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1129]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__369) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1147]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__375) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1141]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__382) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1159]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__388) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1153]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__395) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1171]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__401) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1165]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__408) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1183]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__414) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1177]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__421) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1195]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__427) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1189]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__434) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1207]
+CRITICAL WARNING: [Synth 8-5971] Combinational loop found in the design within module (logic__440) during invertor optimization at instance (i_4) [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd:1201]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 38    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1018.445 ; gain = 19.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |    65|
+|2     |LUT2 |    33|
+|3     |LUT3 |     1|
+|4     |LUT4 |    18|
+|5     |LUT6 |    36|
+|6     |FDRE |   167|
+|7     |FDSE |     3|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 64 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1025.023 ; gain = 6.578
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1025.023 ; gain = 26.504
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1036.070 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1045.641 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 300 Warnings, 164 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1045.641 ; gain = 47.121
+INFO: [Common 17-1381] The checkpoint 'F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/dualCore_trng_0_0_synth_1/dualCore_trng_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/dualCore_trng_0_0_synth_1/dualCore_trng_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dualCore_trng_0_0_utilization_synth.rpt -pb dualCore_trng_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 25 18:32:34 2023...

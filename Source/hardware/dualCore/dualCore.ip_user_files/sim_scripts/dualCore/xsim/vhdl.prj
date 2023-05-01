@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/sim/dualCore_proc_sys_reset_0_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/sim/dualCore_axi_timer_0_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_ea0a_psr_aclk_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ipshared/3b78/vga_controller.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_vga_controller_0_0/sim/dualCore_vga_controller_0_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/sim/dualCore_axi_gpio_0_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/sim/dualCore_rst_ps7_0_125M_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0_S00_AXI.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ipshared/7227/hdl/trng_v1_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/ip/dualCore_trng_0_0/sim/dualCore_trng_0_0.vhd" \
+"../../../../dualCore.gen/sources_1/bd/dualCore/sim/dualCore.vhd" \
+
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 30 17:50:06 2023
+# Process ID: 24408
+# Current directory: F:/GitHub/brickbreaker/Source/hardware/dualCore
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9668 F:\GitHub\brickbreaker\Source\hardware\dualCore\dualCore.xpr
+# Log file: F:/GitHub/brickbreaker/Source/hardware/dualCore/vivado.log
+# Journal file: F:/GitHub/brickbreaker/Source/hardware/dualCore\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.xpr
+update_compile_order -fileset sources_1

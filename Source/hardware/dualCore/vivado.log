@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 30 17:50:06 2023
+# Process ID: 24408
+# Current directory: F:/GitHub/brickbreaker/Source/hardware/dualCore
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9668 F:\GitHub\brickbreaker\Source\hardware\dualCore\dualCore.xpr
+# Log file: F:/GitHub/brickbreaker/Source/hardware/dualCore/vivado.log
+# Journal file: F:/GitHub/brickbreaker/Source/hardware/dualCore\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.xpr
+INFO: [Project 1-313] Project file moved from 'F:/Grad/23SP/ENSC894/Proj/dualCore' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'F:/GitHub/brickbreaker/Source/Lab/VGA/vga_tutorial_students'; using path 'F:/Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'F:/GitHub/brickbreaker/Source/Lab/Zynq_Book/Lab02/ip_repo'; using path 'F:/Grad/23SP/ENSC894/Lab/Zynq_Book/Lab02/ip_repo' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/GitHub/brickbreaker/Source/hardware/ip_repo/trng_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Lab/Zynq_Book/Lab02/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 999.621 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 17:51:03 2023...
