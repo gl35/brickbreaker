@@ -43,4 +43,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dualCore_ze
 # IP: bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dualCore_axi_gpio_1_1 || ORIG_REF_NAME==dualCore_axi_gpio_1_1} -quiet] -quiet
 
-# XDC: f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/dualCore_ooc.xdc
+# XDC: f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/dualCore_ooc.xdc

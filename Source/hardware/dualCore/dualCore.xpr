@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="54" Path="F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.xpr">
+<Project Version="7" Minor="54" Path="F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="3e6bc1fc2c9f4b80990a7b6a8e424c21"/>
@@ -36,9 +36,9 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../Lab/VGA/vga_tutorial_students"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../ip_repo/trng_1.0"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../Lab/Zynq_Book/Lab02/ip_repo"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Grad/23SP/ENSC894/Lab/Zynq_Book/Lab02/ip_repo"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
@@ -84,35 +84,35 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xci">
+          <Proxy FileSetName="dualCore_rst_ps7_0_125M_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_zed_audio_ctrl_0_0/dualCore_zed_audio_ctrl_0_0.xci">
           <Proxy FileSetName="dualCore_zed_audio_ctrl_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_trng_0_0/dualCore_trng_0_0.xci">
+          <Proxy FileSetName="dualCore_trng_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xci">
+          <Proxy FileSetName="dualCore_axi_gpio_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xci">
+          <Proxy FileSetName="dualCore_axi_gpio_1_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xci">
           <Proxy FileSetName="dualCore_processing_system7_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xci">
-          <Proxy FileSetName="dualCore_axi_gpio_1_1"/>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xci">
+          <Proxy FileSetName="dualCore_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xci">
+          <Proxy FileSetName="dualCore_proc_sys_reset_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.xci">
           <Proxy FileSetName="dualCore_axi_timer_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_vga_controller_0_0/dualCore_vga_controller_0_0.xci">
           <Proxy FileSetName="dualCore_vga_controller_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_trng_0_0/dualCore_trng_0_0.xci">
-          <Proxy FileSetName="dualCore_trng_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xci">
-          <Proxy FileSetName="dualCore_proc_sys_reset_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xci">
-          <Proxy FileSetName="dualCore_axi_gpio_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xci">
-          <Proxy FileSetName="dualCore_clk_wiz_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xci">
-          <Proxy FileSetName="dualCore_rst_ps7_0_125M_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/dualCore/hdl/dualCore_wrapper.vhd">
@@ -131,7 +131,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Lab/VGA/vga_tutorial_students/zedboard_master.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc"/>
           <Attr Name="ImportTime" Val="1579118820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -147,7 +147,7 @@
       </File>
       <File Path="$PSRCDIR/constrs_1/imports/constraints/adventures_with_ip.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Lab/Zynq_Book/sources/zedboard/adventures_with_ip_integrator/constraints/adventures_with_ip.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Grad/23SP/ENSC894/Lab/Zynq_Book/sources/zedboard/adventures_with_ip_integrator/constraints/adventures_with_ip.xdc"/>
           <Attr Name="ImportTime" Val="1434653114"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -260,7 +260,7 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="15">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -270,7 +270,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_proc_sys_reset_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_proc_sys_reset_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_proc_sys_reset_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_proc_sys_reset_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_proc_sys_reset_0_0_synth_1">
+    <Run Id="dualCore_proc_sys_reset_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_proc_sys_reset_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_proc_sys_reset_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_proc_sys_reset_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_proc_sys_reset_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -280,7 +280,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_processing_system7_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_processing_system7_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_processing_system7_0_0_synth_1">
+    <Run Id="dualCore_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_processing_system7_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_processing_system7_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_processing_system7_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -290,7 +290,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_axi_timer_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_axi_timer_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_timer_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_axi_timer_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_axi_timer_0_0_synth_1">
+    <Run Id="dualCore_axi_timer_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_axi_timer_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_timer_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_axi_timer_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_axi_timer_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -300,7 +300,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_vga_controller_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_vga_controller_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_vga_controller_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_vga_controller_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_vga_controller_0_0_synth_1">
+    <Run Id="dualCore_vga_controller_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_vga_controller_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_vga_controller_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_vga_controller_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_vga_controller_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -310,7 +310,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_clk_wiz_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_clk_wiz_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_clk_wiz_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_clk_wiz_0_0_synth_1">
+    <Run Id="dualCore_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_clk_wiz_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_clk_wiz_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_clk_wiz_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_clk_wiz_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -320,7 +320,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_axi_gpio_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_axi_gpio_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_axi_gpio_0_0_synth_1">
+    <Run Id="dualCore_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_axi_gpio_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_axi_gpio_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_axi_gpio_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -330,7 +330,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_rst_ps7_0_125M_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_rst_ps7_0_125M_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_rst_ps7_0_125M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_rst_ps7_0_125M_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_rst_ps7_0_125M_0_synth_1">
+    <Run Id="dualCore_rst_ps7_0_125M_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_rst_ps7_0_125M_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_rst_ps7_0_125M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_rst_ps7_0_125M_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_rst_ps7_0_125M_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -340,7 +340,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_trng_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_trng_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_trng_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_trng_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_trng_0_0_synth_1">
+    <Run Id="dualCore_trng_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_trng_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_trng_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_trng_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_trng_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -350,7 +350,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_axi_gpio_1_1_synth_1" Type="Ft3:Synth" SrcSet="dualCore_axi_gpio_1_1" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_axi_gpio_1_1_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_axi_gpio_1_1_synth_1">
+    <Run Id="dualCore_axi_gpio_1_1_synth_1" Type="Ft3:Synth" SrcSet="dualCore_axi_gpio_1_1" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_1_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_axi_gpio_1_1_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_axi_gpio_1_1_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -360,7 +360,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_zed_audio_ctrl_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_zed_audio_ctrl_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_zed_audio_ctrl_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_zed_audio_ctrl_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_zed_audio_ctrl_0_0_synth_1">
+    <Run Id="dualCore_zed_audio_ctrl_0_0_synth_1" Type="Ft3:Synth" SrcSet="dualCore_zed_audio_ctrl_0_0" Part="xc7z020clg484-1" ConstrsSet="dualCore_zed_audio_ctrl_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dualCore_zed_audio_ctrl_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_zed_audio_ctrl_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -370,7 +370,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -388,7 +388,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_proc_sys_reset_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_proc_sys_reset_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_proc_sys_reset_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_proc_sys_reset_0_0_impl_1">
+    <Run Id="dualCore_proc_sys_reset_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_proc_sys_reset_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_proc_sys_reset_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_proc_sys_reset_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -405,7 +405,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_processing_system7_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_processing_system7_0_0_impl_1">
+    <Run Id="dualCore_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_processing_system7_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_processing_system7_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -422,7 +422,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_axi_timer_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_timer_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_axi_timer_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_axi_timer_0_0_impl_1">
+    <Run Id="dualCore_axi_timer_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_timer_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_axi_timer_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_axi_timer_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -439,7 +439,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_vga_controller_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_vga_controller_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_vga_controller_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_vga_controller_0_0_impl_1">
+    <Run Id="dualCore_vga_controller_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_vga_controller_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_vga_controller_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_vga_controller_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -456,7 +456,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_clk_wiz_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_clk_wiz_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_clk_wiz_0_0_impl_1">
+    <Run Id="dualCore_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_clk_wiz_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_clk_wiz_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_clk_wiz_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -473,7 +473,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_axi_gpio_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_axi_gpio_0_0_impl_1">
+    <Run Id="dualCore_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_axi_gpio_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_axi_gpio_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -490,7 +490,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_rst_ps7_0_125M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_rst_ps7_0_125M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_rst_ps7_0_125M_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_rst_ps7_0_125M_0_impl_1">
+    <Run Id="dualCore_rst_ps7_0_125M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_rst_ps7_0_125M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_rst_ps7_0_125M_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_rst_ps7_0_125M_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -507,7 +507,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_trng_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_trng_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_trng_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_trng_0_0_impl_1">
+    <Run Id="dualCore_trng_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_trng_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_trng_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_trng_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -524,7 +524,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_axi_gpio_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_axi_gpio_1_1_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_axi_gpio_1_1_impl_1">
+    <Run Id="dualCore_axi_gpio_1_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_axi_gpio_1_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_axi_gpio_1_1_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_axi_gpio_1_1_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -541,7 +541,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dualCore_zed_audio_ctrl_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_zed_audio_ctrl_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_zed_audio_ctrl_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/dualCore_zed_audio_ctrl_0_0_impl_1">
+    <Run Id="dualCore_zed_audio_ctrl_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="dualCore_zed_audio_ctrl_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dualCore_zed_audio_ctrl_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/utils_1/imports/dualCore_zed_audio_ctrl_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>

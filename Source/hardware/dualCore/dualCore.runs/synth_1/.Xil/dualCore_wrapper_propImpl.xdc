@@ -1,6 +1,6 @@
-set_property SRC_FILE_INFO {cfile:F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc rfile:../../../dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc id:1} [current_design]
-set_property SRC_FILE_INFO {cfile:F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc rfile:../../../dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc id:2} [current_design]
-set_property SRC_FILE_INFO {cfile:F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc rfile:../../../dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc id:3} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc rfile:../../../dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc rfile:../../../dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc rfile:../../../dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc id:3} [current_design]
 set_property src_info {type:XDC file:1 line:187 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y21  [get_ports {VGA_B[0]}];  # "VGA-B1"
 set_property src_info {type:XDC file:1 line:188 export:INPUT save:INPUT read:READ} [current_design]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1680066469">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1743281531">
   <File Type="PA-TCL" Name="dualCore_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="dualCore_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="dualCore_wrapper_reports.tcl"/>
@@ -34,7 +34,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab/VGA/vga_tutorial_students/zedboard_master.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc"/>
         <Attr Name="ImportTime" Val="1579118820"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -50,7 +50,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/constraints/adventures_with_ip.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab/Zynq_Book/sources/zedboard/adventures_with_ip_integrator/constraints/adventures_with_ip.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Grad/23SP/ENSC894/Lab/Zynq_Book/sources/zedboard/adventures_with_ip_integrator/constraints/adventures_with_ip.xdc"/>
         <Attr Name="ImportTime" Val="1434653114"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/synth_1'
+HD_PWD='F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Mar 28 22:12:22 2023
+| Date         : Sat Mar 29 13:55:10 2025
 | Host         : LAPTOP-M2KA7OKE running 64-bit major release  (build 9200)
 | Command      : report_methodology -file dualCore_wrapper_methodology_drc_routed.rpt -pb dualCore_wrapper_methodology_drc_routed.pb -rpx dualCore_wrapper_methodology_drc_routed.rpx
 | Design       : dualCore_wrapper
@@ -1533,36 +1533,36 @@ Related violations: <none>
 XDCC-2#1 Warning
 Scoped Non-Timing constraint/property overwritten  
 A new XDC property IOSTANDARD on btns_5bits_tri_i[0] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
-New Source: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
-Previous Source: f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 3)
+New Source: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
+Previous Source: f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 3)
 Related violations: <none>
 
 XDCC-2#2 Warning
 Scoped Non-Timing constraint/property overwritten  
 A new XDC property IOSTANDARD on btns_5bits_tri_i[1] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
-New Source: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
-Previous Source: f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 5)
+New Source: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
+Previous Source: f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 5)
 Related violations: <none>
 
 XDCC-2#3 Warning
 Scoped Non-Timing constraint/property overwritten  
 A new XDC property IOSTANDARD on btns_5bits_tri_i[2] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
-New Source: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
-Previous Source: f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 7)
+New Source: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
+Previous Source: f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 7)
 Related violations: <none>
 
 XDCC-2#4 Warning
 Scoped Non-Timing constraint/property overwritten  
 A new XDC property IOSTANDARD on btns_5bits_tri_i[3] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
-New Source: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
-Previous Source: f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 9)
+New Source: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
+Previous Source: f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 9)
 Related violations: <none>
 
 XDCC-2#5 Warning
 Scoped Non-Timing constraint/property overwritten  
 A new XDC property IOSTANDARD on btns_5bits_tri_i[4] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
-New Source: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
-Previous Source: f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 11)
+New Source: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc (Line: 367)
+Previous Source: f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc (Line: 11)
 Related violations: <none>
 
 

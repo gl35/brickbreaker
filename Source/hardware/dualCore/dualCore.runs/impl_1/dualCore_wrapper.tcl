@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper.tcl"
+  variable script "F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -125,7 +125,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 3
   open_checkpoint dualCore_wrapper_routed.dcp
-  set_property webtalk.parent_dir F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.cache/wt [current_project]
+  set_property webtalk.parent_dir F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.cache/wt [current_project]
 set_property TOP dualCore_wrapper [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

@@ -191,10 +191,10 @@
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                      dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[11]/S|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                      dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[13]/S|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                      dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[12]/S|
-| clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                       dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[7]/S|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                       dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[8]/S|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                       dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[9]/S|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                       dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[6]/R|
+| clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |                                                       dualCore_i/vga_controller_0/U0/rd_addr_reg_reg[7]/S|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |dualCore_i/axi_timer_0/U0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/INFERRED_GEN.icount_out_reg[4]/R|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |dualCore_i/axi_timer_0/U0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/INFERRED_GEN.icount_out_reg[5]/R|
 | clk_out1_dualCore_clk_wiz_0_0 |               clk_fpga_0 |dualCore_i/axi_timer_0/U0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/INFERRED_GEN.icount_out_reg[7]/R|

@@ -2,35 +2,35 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Mar 28 22:10:15 2023
-# Process ID: 26488
-# Current directory: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1
+# Start of session at: Sat Mar 29 13:53:06 2025
+# Process ID: 2284
+# Current directory: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1
 # Command line: vivado.exe -log dualCore_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dualCore_wrapper.tcl -notrace
-# Log file: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper.vdi
-# Journal file: F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1\vivado.jou
+# Log file: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper.vdi
+# Journal file: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source dualCore_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Lab/VGA/vga_tutorial_students'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Proj/ip_repo/trng_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/GitHub/brickbreaker/Source/hardware/ip_repo/trng_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Grad/23SP/ENSC894/Lab/Zynq_Book/Lab02/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2020.2/data/ip'.
 Command: link_design -top dualCore_wrapper -part xc7z020clg484-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xc7z020clg484-1
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.dcp' for cell 'dualCore_i/axi_gpio_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.dcp' for cell 'dualCore_i/axi_gpio_1'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.dcp' for cell 'dualCore_i/axi_timer_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.dcp' for cell 'dualCore_i/clk_wiz_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.dcp' for cell 'dualCore_i/proc_sys_reset_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.dcp' for cell 'dualCore_i/processing_system7_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.dcp' for cell 'dualCore_i/rst_ps7_0_125M'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/dualCore_smartconnect_0_0.dcp' for cell 'dualCore_i/smartconnect_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_trng_0_0/dualCore_trng_0_0.dcp' for cell 'dualCore_i/trng_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_vga_controller_0_0/dualCore_vga_controller_0_0.dcp' for cell 'dualCore_i/vga_controller_0'
-INFO: [Project 1-454] Reading design checkpoint 'f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_zed_audio_ctrl_0_0/dualCore_zed_audio_ctrl_0_0.dcp' for cell 'dualCore_i/zed_audio_ctrl_0'
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.425 . Memory (MB): peak = 1001.270 ; gain = 0.000
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.dcp' for cell 'dualCore_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.dcp' for cell 'dualCore_i/axi_gpio_1'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.dcp' for cell 'dualCore_i/axi_timer_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.dcp' for cell 'dualCore_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.dcp' for cell 'dualCore_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.dcp' for cell 'dualCore_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.dcp' for cell 'dualCore_i/rst_ps7_0_125M'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/dualCore_smartconnect_0_0.dcp' for cell 'dualCore_i/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_trng_0_0/dualCore_trng_0_0.dcp' for cell 'dualCore_i/trng_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_vga_controller_0_0/dualCore_vga_controller_0_0.dcp' for cell 'dualCore_i/vga_controller_0'
+INFO: [Project 1-454] Reading design checkpoint 'f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_zed_audio_ctrl_0_0/dualCore_zed_audio_ctrl_0_0.dcp' for cell 'dualCore_i/zed_audio_ctrl_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.418 . Memory (MB): peak = 999.527 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 93 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2020.2
@@ -38,394 +38,394 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. dualCore_i/clk_wiz_0/inst/clkin1_ibufg 
 Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
 WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'dualCore_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xdc] for cell 'dualCore_i/processing_system7_0/inst'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xdc] for cell 'dualCore_i/processing_system7_0/inst'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0_board.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0_board.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc:57]
-INFO: [Timing 38-2] Deriving generated clocks [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc:57]
-get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1418.406 ; gain = 417.137
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0_board.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0_board.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.xdc] for cell 'dualCore_i/axi_timer_0/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.xdc] for cell 'dualCore_i/axi_timer_0/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0_board.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0_board.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0_board.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0_board.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc] for cell 'dualCore_i/trng_0/U0'
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e1]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xdc] for cell 'dualCore_i/processing_system7_0/inst'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xdc] for cell 'dualCore_i/processing_system7_0/inst'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0_board.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0_board.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1418.984 ; gain = 419.457
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xdc] for cell 'dualCore_i/clk_wiz_0/inst'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0_board.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0_board.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xdc] for cell 'dualCore_i/proc_sys_reset_0/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.xdc] for cell 'dualCore_i/axi_timer_0/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.xdc] for cell 'dualCore_i/axi_timer_0/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0_board.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0_board.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_smartconnect_0_0/bd_0/ip/ip_1/bd_ea0a_psr_aclk_0.xdc] for cell 'dualCore_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0_board.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xdc] for cell 'dualCore_i/axi_gpio_0/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0_board.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0_board.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xdc] for cell 'dualCore_i/rst_ps7_0_125M/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc] for cell 'dualCore_i/trng_0/U0'
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e1]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:68]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e2]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e2]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:69]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e3]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e3]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:70]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e4]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e4]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:71]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e5]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e5]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:72]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e6]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e6]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:73]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e7]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e7]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:74]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e8]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e8]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:75]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e9]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e9]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:76]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e10]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e10]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:77]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e11]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e11]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:78]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e12]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e12]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:79]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e13]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e13]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:80]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e14]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e14]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:81]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e15]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e15]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:82]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e16]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e16]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:83]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e17]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e17]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:84]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e18]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e18]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:85]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e19]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e19]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:86]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e20]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e20]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:87]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e21]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e21]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:88]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e22]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e22]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:89]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e23]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e23]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:90]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e24]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e24]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:91]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e25]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e25]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:92]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e26]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e26]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:93]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e27]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e27]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:94]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e28]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e28]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:95]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e29]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e29]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:96]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e30]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e30]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:97]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e31]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e31]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:98]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e32]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e32]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:99]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e33]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e33]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:100]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e34]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e34]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:101]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e35]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e35]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:102]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e36]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e36]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:103]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e37]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e37]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:104]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e38]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e38]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:105]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e39]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e39]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:106]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e40]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e40]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:107]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e41]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e41]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:108]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e42]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e42]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:109]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e43]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e43]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:110]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e44]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e44]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:111]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e45]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e45]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:112]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e46]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e46]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:113]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e47]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e47]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:114]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e48]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e48]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:115]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e49]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e49]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:116]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e50]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e50]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:117]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e51]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e51]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:118]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e52]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e52]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:119]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e53]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e53]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:120]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e54]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e54]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:121]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e55]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e55]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:122]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e56]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e56]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:123]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e57]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e57]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:124]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e58]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e58]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:125]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e59]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e59]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:126]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e60]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e60]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:127]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e61]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e61]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:128]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e62]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e62]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:129]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e63]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e63]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:130]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e64]'. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/e64]'. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc:131]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc] for cell 'dualCore_i/trng_0/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1_board.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1_board.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
-Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc]
-WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:372]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:372]
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/ringO_loop.xdc] for cell 'dualCore_i/trng_0/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1_board.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1_board.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xdc] for cell 'dualCore_i/axi_gpio_1/U0'
+Parsing XDC File [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:372]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:372]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:375]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:375]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:375]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc:375]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc]
-Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc]
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor0_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:132]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor0_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:132]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:132]
+Finished Parsing XDC File [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Lab/VGA/vga_tutorial_students/zedboard_master.xdc]
+Parsing XDC File [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor0_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:132]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor0_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:132]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor1_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:133]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor1_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:133]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:133]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor1_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:133]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor1_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:133]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor2_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:134]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor2_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:134]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:134]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor2_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:134]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor2_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:134]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor3_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:135]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor3_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:135]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:135]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor3_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:135]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor3_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:135]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor4_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:136]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor4_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:136]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:136]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor4_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:136]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor4_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:136]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor5_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:137]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor5_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:137]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:137]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor5_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:137]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor5_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:137]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor6_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:138]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor6_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:138]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:138]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor6_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:138]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor6_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:138]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor7_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:139]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor7_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:139]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:139]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor7_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:139]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor7_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:139]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor8_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:140]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor8_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:140]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:140]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor8_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:140]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor8_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:140]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor9_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:141]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor9_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:141]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:141]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor9_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:141]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor9_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:141]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor10_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:142]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor10_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:142]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:142]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor10_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:142]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor10_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:142]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor11_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:143]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor11_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:143]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:143]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor11_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:143]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor11_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:143]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor12_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:144]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor12_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:144]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:144]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor12_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:144]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor12_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:144]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor13_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:145]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor13_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:145]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:145]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor13_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:145]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor13_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:145]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor14_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:146]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor14_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:146]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:146]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor14_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:146]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor14_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:146]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor15_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:147]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor15_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:147]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:147]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor15_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:147]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor15_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:147]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor16_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:148]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor16_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:148]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:148]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor16_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:148]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor16_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:148]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor17_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:149]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor17_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:149]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:149]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor17_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:149]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor17_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:149]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor18_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:150]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor18_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:150]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:150]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor18_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:150]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor18_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:150]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor19_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:151]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor19_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:151]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:151]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor19_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:151]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor19_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:151]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor20_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:152]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor20_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:152]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:152]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor20_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:152]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor20_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:152]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor21_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:153]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor21_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:153]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:153]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor21_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:153]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor21_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:153]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor22_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:154]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor22_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:154]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:154]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor22_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:154]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor22_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:154]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor23_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:155]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor23_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:155]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:155]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor23_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:155]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor23_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:155]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor24_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:156]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor24_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:156]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:156]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor24_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:156]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor24_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:156]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor25_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:157]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor25_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:157]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:157]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor25_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:157]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor25_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:157]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor26_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:158]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor26_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:158]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:158]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor26_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:158]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor26_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:158]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor27_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:159]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor27_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:159]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:159]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor27_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:159]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor27_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:159]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor28_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:160]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor28_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:160]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:160]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor28_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:160]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor28_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:160]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor29_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:161]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor29_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:161]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:161]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor29_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:161]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor29_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:161]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor30_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:162]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor30_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:162]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:162]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor30_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:162]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor30_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:162]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor31_i_2'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:163]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor31_i_2]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:163]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:163]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor31_i_2'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:163]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor31_i_2]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:163]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor0_i_3'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:164]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor0_i_3]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:164]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:164]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor0_i_3'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:164]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor0_i_3]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:164]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor1_i_3'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor1_i_3]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor1_i_3'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor1_i_3]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor2_i_3'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:166]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor2_i_3]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:166]
-WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor3_i_3'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
-INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
-WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor3_i_3]'. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
-INFO: [Common 17-14] Message 'Vivado 12-1023' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
-Finished Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc]
-Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc]
-Finished Parsing XDC File [F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc]
-Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
-Finished Parsing XDC File [f:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:165]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor2_i_3'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:166]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor2_i_3]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:166]
+WARNING: [Vivado 12-180] No cells matched 'trng_v1_0_S00_AXI_inst/firstXor3_i_3'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
+INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
+WARNING: [Vivado 12-1023] No nets matched for command 'get_nets -of_objects [get_cells trng_v1_0_S00_AXI_inst/firstXor3_i_3]'. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
+INFO: [Common 17-14] Message 'Vivado 12-1023' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc:167]
+Finished Parsing XDC File [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/ENSC894/Proj/ip_repo/ringO_loop.xdc]
+Parsing XDC File [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc]
+Finished Parsing XDC File [F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc]
+Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
+Finished Parsing XDC File [f:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.gen/sources_1/bd/dualCore/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'dualCore_i/vga_controller_0/U0/fifo/U0'
 INFO: [Project 1-1715] 4 XPM XDC files have been applied to the design.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-1687] 64 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1418.406 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1418.984 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 5 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 4 instances
@@ -433,7 +433,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 30 Infos, 140 Warnings, 100 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1418.406 ; gain = 417.137
+link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.984 ; gain = 419.457
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -444,13 +444,13 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1418.406 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1418.984 ; gain = 0.000
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Cache Timing Information Task | Checksum: 1787e7bc4
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.341 . Memory (MB): peak = 1418.406 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.314 . Memory (MB): peak = 1418.984 ; gain = 0.000
 
 Starting Logic Optimization Task
 
@@ -459,7 +459,7 @@ INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: 1e1eaef65
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.310 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.255 . Memory (MB): peak = 1601.066 ; gain = 0.199
 INFO: [Opt 31-389] Phase Retarget created 11 cells and removed 49 cells
 INFO: [Opt 31-1021] In phase Retarget, 119 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -467,34 +467,34 @@ Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Phase 2 Constant propagation | Checksum: 1d933091b
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.363 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.311 . Memory (MB): peak = 1601.066 ; gain = 0.199
 INFO: [Opt 31-389] Phase Constant propagation created 27 cells and removed 87 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 146 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
 Phase 3 Sweep | Checksum: 1da281621
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1601.066 ; gain = 0.199
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 400 cells
 INFO: [Opt 31-1021] In phase Sweep, 206 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 4 BUFG optimization
 Phase 4 BUFG optimization | Checksum: 1da281621
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1601.066 ; gain = 0.199
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
 Phase 5 Shift Register Optimization | Checksum: 1da281621
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1601.066 ; gain = 0.199
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
 Phase 6 Post Processing Netlist | Checksum: 1da281621
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1601.066 ; gain = 0.199
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 145 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -516,10 +516,10 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1600.086 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1601.066 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: 14b201c64
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1600.086 ; gain = 0.184
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1601.066 ; gain = 0.199
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -538,10 +538,10 @@ INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 6 newly gated: 0 Total Ports: 10
 Ending PowerOpt Patch Enables Task | Checksum: 1b8203338
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Ending Power Optimization Task | Checksum: 1b8203338
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.289 ; gain = 158.203
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1762.539 ; gain = 161.473
 
 Starting Final Cleanup Task
 
@@ -549,33 +549,33 @@ Starting Logic Optimization Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Logic Optimization Task | Checksum: 218ba3fad
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.494 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.491 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Ending Final Cleanup Task | Checksum: 218ba3fad
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Ending Netlist Obfuscation Task | Checksum: 218ba3fad
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 58 Infos, 140 Warnings, 100 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1758.289 ; gain = 339.883
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1762.539 ; gain = 343.555
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1758.289 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1762.539 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_opt.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file dualCore_wrapper_drc_opted.rpt -pb dualCore_wrapper_drc_opted.pb -rpx dualCore_wrapper_drc_opted.rpx
 Command: report_drc -file dualCore_wrapper_drc_opted.rpt -pb dualCore_wrapper_drc_opted.pb -rpx dualCore_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_drc_opted.rpt.
 report_drc completed successfully
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
@@ -679,41 +679,41 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14614b65c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1758.289 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1762.539 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 7ec734f7
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.584 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.542 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
 Phase 1.3 Build Placer Netlist Model | Checksum: 170f06220
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
 Phase 1.4 Constrain Clocks/Macros | Checksum: 170f06220
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 1 Placer Initialization | Checksum: 170f06220
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
 Phase 2.1 Floorplanning | Checksum: 15c8c2d0a
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 2.2 Update Timing before SLR Path Opt
 Phase 2.2 Update Timing before SLR Path Opt | Checksum: 159549dce
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 2.3 Global Placement Core
 
@@ -736,7 +736,7 @@ INFO: [Physopt 32-846] No candidate cells for URAM register optimization found i
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -759,63 +759,63 @@ Summary of Physical Synthesis Optimizations
 
 Phase 2.3.1 Physical Synthesis In Placer | Checksum: 139a99e17
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 2.3 Global Placement Core | Checksum: 92120f2d
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 2 Global Placement | Checksum: 92120f2d
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 136c4880e
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 16ba056a0
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: e6413cf6
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 12ce5c0e9
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.5 Fast Optimization
 Phase 3.5 Fast Optimization | Checksum: d2dbc6fa
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.6 Small Shape Detail Placement
 Phase 3.6 Small Shape Detail Placement | Checksum: 10c9eaa79
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
 Phase 3.7 Re-assign LUT pins | Checksum: bbecc306
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
 Phase 3.8 Pipeline Register Optimization | Checksum: 17a413f39
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3.9 Fast Optimization
 Phase 3.9 Fast Optimization | Checksum: 104e891e0
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 3 Detail Placement | Checksum: 104e891e0
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -834,25 +834,25 @@ INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximu
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.658 | TNS=-296.304 |
 Phase 1 Physical Synthesis Initialization | Checksum: 173005757
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
 Ending Physical Synthesis Task | Checksum: 1f099454f
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.139 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 4.1.1.1 BUFG Insertion | Checksum: 16799856a
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Place 30-746] Post Placement Timing Summary WNS=-1.610. For the most accurate timing information please run report_timing.
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:41 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 4.1 Post Commit Optimization | Checksum: 1534a9aaf
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: 1534a9aaf
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
 
@@ -873,41 +873,41 @@ INFO: [Place 30-612] Post-Placement Estimated Congestion
 
 Phase 4.3.1 Print Estimated Congestion | Checksum: 1534a9aaf
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 4.3 Placer Reporting | Checksum: 1534a9aaf
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: 17e5034f0
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Ending Placer Task | Checksum: 170a5c251
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:42 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:40 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 98 Infos, 225 Warnings, 100 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:43 . Memory (MB): peak = 1758.289 ; gain = 0.000
+place_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:41 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.325 . Memory (MB): peak = 1758.289 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_placed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.300 . Memory (MB): peak = 1762.539 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_placed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_io -file dualCore_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1758.289 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file dualCore_wrapper_utilization_placed.rpt -pb dualCore_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file dualCore_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1758.289 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Starting Physical Synthesis Task
 
@@ -916,7 +916,7 @@ INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximu
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.610 | TNS=-286.690 |
 Phase 1 Physical Synthesis Initialization | Checksum: 276525b72
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.409 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.393 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.610 | TNS=-286.690 |
 
 Phase 2 DSP Register Optimization
@@ -924,7 +924,7 @@ INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 Phase 2 DSP Register Optimization | Checksum: 276525b72
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.433 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.414 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 3 Critical Path Optimization
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.610 | TNS=-286.690 |
@@ -999,7 +999,7 @@ INFO: [Physopt 32-702] Processed net dualCore_i/proc_sys_reset_0/U0/peripheral_a
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.477 | TNS=-280.672 |
 Phase 3 Critical Path Optimization | Checksum: 276525b72
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1762.539 ; gain = 0.000
 
 Phase 4 Critical Path Optimization
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.477 | TNS=-280.672 |
@@ -1022,8 +1022,8 @@ INFO: [Physopt 32-702] Processed net dualCore_i/proc_sys_reset_0/U0/peripheral_a
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.477 | TNS=-280.672 |
 Phase 4 Critical Path Optimization | Checksum: 276525b72
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.289 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1762.539 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-1.477 | TNS=-280.672 |
 
 Summary of Physical Synthesis Optimizations
@@ -1039,10 +1039,10 @@ Summary of Physical Synthesis Optimizations
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1762.539 ; gain = 0.000
 Ending Physical Synthesis Task | Checksum: 1a3ddcbae
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1758.289 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1762.539 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 197 Infos, 225 Warnings, 100 Critical Warnings and 0 Errors encountered.
 phys_opt_design completed successfully
@@ -1051,8 +1051,8 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.279 . Memory (MB): peak = 1758.289 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_physopt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.303 . Memory (MB): peak = 1762.539 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_physopt.dcp' has been generated.
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -1136,7 +1136,7 @@ Checksum: PlaceDB: ae4258c ConstDB: 0 ShapeSum: e12cc4f8 RouteDB: 0
 Phase 1 Build RT Design
 Phase 1 Build RT Design | Checksum: a125ad66
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1827.586 ; gain = 69.297
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1829.574 ; gain = 67.035
 Post Restoration Checksum: NetGraph: 2895c867 NumContArr: 788fe4ff Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
@@ -1144,23 +1144,23 @@ Phase 2 Router Initialization
 Phase 2.1 Create Timer
 Phase 2.1 Create Timer | Checksum: a125ad66
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1827.586 ; gain = 69.297
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1829.574 ; gain = 67.035
 
 Phase 2.2 Fix Topology Constraints
 Phase 2.2 Fix Topology Constraints | Checksum: a125ad66
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1833.836 ; gain = 75.547
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1835.711 ; gain = 73.172
 
 Phase 2.3 Pre Route Cleanup
 Phase 2.3 Pre Route Cleanup | Checksum: a125ad66
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1833.836 ; gain = 75.547
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1835.711 ; gain = 73.172
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
 Phase 2.4 Update Timing | Checksum: fa77beb4
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1860.121 ; gain = 101.832
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1861.352 ; gain = 98.812
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.469 | TNS=-265.210| WHS=-0.854 | THS=-179.495|
 
 
@@ -1169,15 +1169,15 @@ Phase 2.5 Update Timing for Bus Skew
 Phase 2.5.1 Update Timing
 Phase 2.5.1 Update Timing | Checksum: 1124c44a9
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 1860.121 ; gain = 101.832
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1861.352 ; gain = 98.812
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.469 | TNS=-268.615| WHS=N/A    | THS=N/A    |
 
 Phase 2.5 Update Timing for Bus Skew | Checksum: 1039da235
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 1865.160 ; gain = 106.871
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1866.391 ; gain = 103.852
 Phase 2 Router Initialization | Checksum: 147e7a31f
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 1865.160 ; gain = 106.871
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1866.391 ; gain = 103.852
 
 Router Utilization Summary
   Global Vertical Routing Utilization    = 0 %
@@ -1197,10 +1197,10 @@ Phase 3 Initial Routing
 Phase 3.1 Global Routing
 Phase 3.1 Global Routing | Checksum: 147e7a31f
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1865.160 ; gain = 106.871
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1866.391 ; gain = 103.852
 Phase 3 Initial Routing | Checksum: 1dfcbd662
 
-Time (s): cpu = 00:00:28 ; elapsed = 00:00:23 . Memory (MB): peak = 1893.188 ; gain = 134.898
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1894.797 ; gain = 132.258
 INFO: [Route 35-580] Design has 218 pins with tight setup and hold constraints.
 
 The top 5 pins with tight setup and hold constraints:
@@ -1230,7 +1230,7 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=-3.001 | TNS=-599.805| WH
 
 Phase 4.1 Global Iteration 0 | Checksum: 114eff0e1
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 4.2 Global Iteration 1
  Number of Nodes with overlaps = 2
@@ -1239,10 +1239,10 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=-3.003 | TNS=-596.296| WH
 
 Phase 4.2 Global Iteration 1 | Checksum: 174237f80
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 Phase 4 Rip-up And Reroute | Checksum: 174237f80
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 5 Delay and Skew Optimization
 
@@ -1251,20 +1251,20 @@ Phase 5.1 Delay CleanUp
 Phase 5.1.1 Update Timing
 Phase 5.1.1 Update Timing | Checksum: 1886cc696
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=-3.001 | TNS=-598.353| WHS=N/A    | THS=N/A    |
 
 Phase 5.1 Delay CleanUp | Checksum: 142ad4914
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 5.2 Clock Skew Optimization
 Phase 5.2 Clock Skew Optimization | Checksum: 142ad4914
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 Phase 5 Delay and Skew Optimization | Checksum: 142ad4914
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 6 Post Hold Fix
 
@@ -1273,15 +1273,15 @@ Phase 6.1 Hold Fix Iter
 Phase 6.1.1 Update Timing
 Phase 6.1.1 Update Timing | Checksum: 233513318
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=-3.001 | TNS=-598.353| WHS=0.044  | THS=0.000  |
 
 Phase 6.1 Hold Fix Iter | Checksum: 220eb193f
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 Phase 6 Post Hold Fix | Checksum: 220eb193f
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 7 Route finalize
 
@@ -1325,19 +1325,19 @@ Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
 
 Phase 7 Route finalize | Checksum: 1a8e534cf
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 1a8e534cf
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 9 Depositing Routes
 Phase 9 Depositing Routes | Checksum: 1c4244ee1
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Phase 10 Post Router Timing
 INFO: [Route 35-57] Estimated Timing Summary | WNS=-3.001 | TNS=-598.353| WHS=0.044  | THS=0.000  |
@@ -1346,34 +1346,34 @@ WARNING: [Route 35-328] Router estimated timing not met.
 Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
 Phase 10 Post Router Timing | Checksum: 1c4244ee1
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1897.551 ; gain = 139.262
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1896.398 ; gain = 133.859
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 217 Infos, 290 Warnings, 100 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:32 . Memory (MB): peak = 1897.551 ; gain = 139.262
+route_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:31 . Memory (MB): peak = 1896.398 ; gain = 133.859
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.393 . Memory (MB): peak = 1897.551 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.386 . Memory (MB): peak = 1896.398 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_routed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file dualCore_wrapper_drc_routed.rpt -pb dualCore_wrapper_drc_routed.pb -rpx dualCore_wrapper_drc_routed.rpx
 Command: report_drc -file dualCore_wrapper_drc_routed.rpt -pb dualCore_wrapper_drc_routed.pb -rpx dualCore_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_drc_routed.rpt.
 report_drc completed successfully
 INFO: [runtcl-4] Executing : report_methodology -file dualCore_wrapper_methodology_drc_routed.rpt -pb dualCore_wrapper_methodology_drc_routed.pb -rpx dualCore_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file dualCore_wrapper_methodology_drc_routed.rpt -pb dualCore_wrapper_methodology_drc_routed.pb -rpx dualCore_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file F:/Grad/23SP/ENSC894/Proj/dualCore/dualCore.runs/impl_1/dualCore_wrapper_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/impl_1/dualCore_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
 INFO: [runtcl-4] Executing : report_power -file dualCore_wrapper_power_routed.rpt -pb dualCore_wrapper_power_summary_routed.pb -rpx dualCore_wrapper_power_routed.rpx
 Command: report_power -file dualCore_wrapper_power_routed.rpt -pb dualCore_wrapper_power_summary_routed.pb -rpx dualCore_wrapper_power_routed.rpx
@@ -1395,4 +1395,4 @@ INFO: [runtcl-4] Executing : report_clock_utilization -file dualCore_wrapper_clo
 INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file dualCore_wrapper_bus_skew_routed.rpt -pb dualCore_wrapper_bus_skew_routed.pb -rpx dualCore_wrapper_bus_skew_routed.rpx
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 28 22:12:25 2023...
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 29 13:55:12 2025...
