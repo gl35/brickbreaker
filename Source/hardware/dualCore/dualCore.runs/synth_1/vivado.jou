@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sat Mar 29 13:52:15 2025
-# Process ID: 28084
+# Start of session at: Wed Oct 15 20:25:44 2025
+# Process ID: 25248
 # Current directory: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/synth_1
 # Command line: vivado.exe -log dualCore_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dualCore_wrapper.tcl
 # Log file: F:/GitHub/brickbreaker/Source/hardware/dualCore/dualCore.runs/synth_1/dualCore_wrapper.vds

@@ -84,26 +84,11 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xci">
-          <Proxy FileSetName="dualCore_rst_ps7_0_125M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_zed_audio_ctrl_0_0/dualCore_zed_audio_ctrl_0_0.xci">
-          <Proxy FileSetName="dualCore_zed_audio_ctrl_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_trng_0_0/dualCore_trng_0_0.xci">
-          <Proxy FileSetName="dualCore_trng_0_0"/>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xci">
+          <Proxy FileSetName="dualCore_clk_wiz_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_0_0/dualCore_axi_gpio_0_0.xci">
           <Proxy FileSetName="dualCore_axi_gpio_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xci">
-          <Proxy FileSetName="dualCore_axi_gpio_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xci">
-          <Proxy FileSetName="dualCore_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_clk_wiz_0_0/dualCore_clk_wiz_0_0.xci">
-          <Proxy FileSetName="dualCore_clk_wiz_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_proc_sys_reset_0_0/dualCore_proc_sys_reset_0_0.xci">
           <Proxy FileSetName="dualCore_proc_sys_reset_0_0"/>
@@ -111,8 +96,23 @@
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_timer_0_0/dualCore_axi_timer_0_0.xci">
           <Proxy FileSetName="dualCore_axi_timer_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_trng_0_0/dualCore_trng_0_0.xci">
+          <Proxy FileSetName="dualCore_trng_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_zed_audio_ctrl_0_0/dualCore_zed_audio_ctrl_0_0.xci">
+          <Proxy FileSetName="dualCore_zed_audio_ctrl_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_axi_gpio_1_1/dualCore_axi_gpio_1_1.xci">
+          <Proxy FileSetName="dualCore_axi_gpio_1_1"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_vga_controller_0_0/dualCore_vga_controller_0_0.xci">
           <Proxy FileSetName="dualCore_vga_controller_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_rst_ps7_0_125M_0/dualCore_rst_ps7_0_125M_0.xci">
+          <Proxy FileSetName="dualCore_rst_ps7_0_125M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="dualCore.bd" FileRelPathName="ip/dualCore_processing_system7_0_0/dualCore_processing_system7_0_0.xci">
+          <Proxy FileSetName="dualCore_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/dualCore/hdl/dualCore_wrapper.vhd">
